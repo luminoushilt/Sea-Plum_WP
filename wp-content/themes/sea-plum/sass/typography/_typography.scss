@@ -10,6 +10,11 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+::selection {
+  background: $selection-color;
+  color: $white;
+}
+
 @import "headings";
 
 @import "copy";
